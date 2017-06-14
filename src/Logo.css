@@ -1,0 +1,14 @@
+.retroLogo {
+    -webkit-animation: dash 10s infinite alternate;
+    animation: dash 10s infinite alternate;
+    fill: url(#grad1);
+    -webkit-filter: url(#dropshadow);
+    filter: url(#dropshadow);
+    left: 50%;
+    margin-left: -300px;
+    position: absolute;
+    stroke-dasharray: 1600;
+    stroke-dashoffset: 1600;
+    top: 3em;
+    z-index: 8;
+}

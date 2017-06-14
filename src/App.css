@@ -1,0 +1,13 @@
+body {
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+    background-image: url(http://1nova.com/wallpapers/wp-content/uploads/sites/34/2015/02/Retro-80s-Arcade-Game.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.app {
+    width: 100%;
+    height: auto;
+}
