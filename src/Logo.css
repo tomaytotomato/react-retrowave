@@ -10,5 +10,18 @@
     stroke-dasharray: 1600;
     stroke-dashoffset: 1600;
     top: 3em;
-    z-index: 8;
+    height: 500px;
+    width: 500px;
+}
+
+@-webkit-keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
 }

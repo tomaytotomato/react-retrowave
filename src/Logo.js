@@ -8,6 +8,8 @@ class Logo extends Component {
             <svg className="retroLogo">
                 <defs>
                     <linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+                        <stop offset="0%" style={{stopColor:"rgb(50,50,50)", stopOpacity:1}} />
+                        <stop offset="100%" style={{stopColor:"black", stopOpacity:1}} />
                     </linearGradient>
                 </defs>
                 <filter id="dropshadow" height="130%">
